@@ -16,7 +16,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-# Dépôt Git : shop-configs/application.yml
 spring:
   profiles:
-    include: dev # Recommandé si vous voulez inclure un profil par défaut depuis le Config Server
+    active: dev
