@@ -2,7 +2,7 @@ server:
   port: 8081
 
 app:
-  message: "Product Service - DYNAMIQUE !"
+  message: "Product Service - DYNAMIQUE V2!"
   database:
     url: "jdbc:mysql://localhost:3306/productdb"
     username: "root"
