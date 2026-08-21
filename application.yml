@@ -2,3 +2,9 @@
 app:
   version: "1.0.0"
   environment: "development"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh

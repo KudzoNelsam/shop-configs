@@ -2,7 +2,7 @@ server:
   port: 8082
 
 app:
-  message: "Order Service - DYNAMIQUE V2.0"
+  message: "Order Service - DYNAMIQUE Version finale"
   database:
     url: "jdbc:mysql://localhost:3306/orderdb"
     username: "root"
