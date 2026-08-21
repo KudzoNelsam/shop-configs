@@ -1,0 +1,9 @@
+# Ce fichier est pour les configurations partagées par tous
+app:
+  environment: "development"
+
+# Ajout de la configuration pour Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

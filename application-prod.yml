@@ -1,0 +1,7 @@
+app:
+  environment: "production"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.prod.monentreprise.com:8761/eureka/
