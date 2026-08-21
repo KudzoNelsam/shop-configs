@@ -1,0 +1,8 @@
+server:
+  port: 8082
+
+app:
+  message: "Bonjour depuis Order Service"
+  database:
+    url: "jdbc:mysql://localhost:3306/orderdb"
+    username: "root"
