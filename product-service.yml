@@ -6,8 +6,3 @@ app:
   database:
     url: "jdbc:mysql://localhost:3306/productdb"
     username: "root"
-
-
-spring:
-  profiles:
-    active: dev

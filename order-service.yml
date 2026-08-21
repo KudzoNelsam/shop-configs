@@ -6,7 +6,3 @@ app:
   database:
     url: "jdbc:mysql://localhost:3306/orderdb"
     username: "root"
-
-spring:
-  profiles:
-    active: dev
